@@ -101,7 +101,7 @@ module.exports = class ReadyEvent extends BaseEvent {
         if (err) throw err;
       });
     });
-    fs.copyFile('../../../../../../../../../Users/JoeSw/Desktop/FXServer/txData/default/data/playersDB.json', `${filePath}/playersDB.json`, (err) => {
+    fs.copyFile('../../../../../../../../../Users/WoahThereCowboy/Desktop/FXServer/txData/default/data/playersDB.json', `${filePath}/playersDB.json`, (err) => {
       if (err) throw err;
     } )
     console.log("Saved loading screen data!");
